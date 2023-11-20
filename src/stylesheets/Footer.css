@@ -1,0 +1,134 @@
+body {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem;
+    color: white;
+    justify-content: center;
+}
+
+.footernewsteller {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+    padding: 2rem 0rem;
+}
+
+.footer-left a {
+    color: white;
+    width: fit-content;
+    border-radius: 6px;
+    border: 2px solid #DBE0E8;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-left a:hover {
+    color: black;
+    background-color: white;
+}
+
+.footer-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    gap: 1rem;
+    padding: 2rem 0rem;
+}
+
+.footer-right p {
+    width: 250px;
+}
+
+.footer-right input[type=email] {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    border: 2px solid #DBE0E8;
+}
+
+.footer-right input[type=email]::placeholder {
+    font-size: 1rem;
+    padding-left: 1rem;
+    color: #000000;
+}
+
+.title {
+    font-size: 10vmin;
+    border-bottom: 2px solid #DBE0E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4vmin;
+}
+
+.footer-ul {
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+
+/* css for Responsiveness Navbar   */
+/* css for Responsiveness Navbar  */
+/* css for Responsiveness Navbar  */
+
+@media screen and (min-width:320px) and (max-width:720px) {
+    .footernewsteller {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left {
+        width: 50%;
+        align-items: center;
+    }
+
+    .footer-right {
+        align-items: center;
+    }
+
+    .footer-right p {
+        text-align: center;
+    }
+
+    .footer-right input[type=email]::placeholder {
+        padding-left: 1rem;
+    }
+
+    .title {
+        font-size: 6vmin;
+    }
+
+    .footer-ul {
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    li {
+        list-style: none;
+    }
+}

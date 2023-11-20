@@ -1,0 +1,63 @@
+.master6 {
+    width: 100%;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    background-color: black;
+    color: white;
+}
+
+.master6-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.master6-left h2 {
+    font-size: 3rem;
+}
+
+.master6-left a {
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.master6-left a:hover {
+    color: black;
+    background-color: white;
+}
+
+.master6-right {
+    width: 40%;
+    border-radius: 10px;
+    background: url(../assetes/Master6-right.jpg) center;
+    background-size: cover;
+    filter: grayscale(0.4);
+}
+
+/* css for Responsiveness Master6  */
+/* css for Responsiveness Master6  */
+/* css for Responsiveness Master6  */
+
+@media screen and (min-width:320px) and (max-width:720px) {
+    .master6 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .master6-left {
+        width: 100%;
+    }
+
+    .master6-right {
+        width: 100%;
+    }
+
+    .master6-right {
+        height: 400px;
+
+    }
+}

@@ -1,0 +1,240 @@
+.detailed {
+    width: 100%;
+    height: 120vh;
+    background-color: #F5F8FD;
+    padding: 2rem 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detailed-up {
+    height: 100%;
+    gap: 1rem;
+    display: flex;
+}
+
+.detailed-up-left {
+    width: 60%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.detailed-up-left-up {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    height: fit-content;
+    background-color: black;
+    padding: 2rem 2rem 2rem 2rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.detailed-up-left-up h2 {
+    font-size: 7vmin;
+    font-size: 4vmax;
+}
+
+.detailed-up-left-up p {
+    padding-bottom: 2rem;
+}
+
+.detailed-up-left-down {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 1rem;
+}
+
+.detailed-up-left-down-left {
+    width: 50%;
+    background: url(../assetes/view-3d-house-model.jpg) center;
+    background-size: cover;
+    filter: grayscale(0.4);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.detailed-up-left-down-right {
+    width: 50%;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: black;
+    padding: 2rem 2rem 2rem 2rem;
+    color: white;
+    justify-content: flex-end;
+}
+
+.detailed-up-right {
+    background: url(../assetes/Detailed5right.jpg) center;
+    background-size: cover;
+    width: 40%;
+    filter: grayscale(0.4);
+    border-radius: 10px;
+}
+
+.detailed a {
+    align-self: center;
+    border-color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.detailed a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* css for Responsiveness Detailed5  */
+/* css for Responsiveness Detailed5  */
+/* css for Responsiveness Detailed5  */
+
+@media screen and (min-width:650px) and (max-width:835px) {
+    .detailed {
+        height: fit-content;
+    }
+
+
+    .detailed-up {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detailed-up-left {
+        width: 100%;
+    }
+
+    .detailed-up-left-down-right {
+        height: 300px;
+    }
+
+    .detailed-up-left-down-left {
+        height: 300px;
+    }
+
+    .detailed-up-right {
+        width: 50%;
+        height: 500px;
+    }
+
+    .detailed a {
+        align-self: center;
+        border-color: black;
+        transition: 0.5s ease-in-out;
+    }
+
+    .detailed a:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+
+/* css for Responsiveness Detailed5  */
+/* css for Responsiveness Detailed5  */
+/* css for Responsiveness Detailed5  */
+
+@media screen and (min-width:490px) and (max-width:649px) {
+    .detailed {
+        height: fit-content;
+    }
+
+    .detailed-up {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detailed-up-left {
+        width: 100%;
+    }
+
+    .detailed-up-left-down {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detailed-up-left-down-right {
+        height: 300px;
+        width: 100%;
+    }
+
+    .detailed-up-left-down-left {
+        height: 300px;
+        width: 100%;
+
+    }
+
+    .detailed-up-right {
+        width: 80%;
+        height: 500px;
+
+    }
+
+    .detailed a {
+        align-self: center;
+        border-color: black;
+        transition: 0.5s ease-in-out;
+    }
+
+    .detailed a:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+/* css for Responsiveness Detailed5  */
+/* css for Responsiveness Detailed5  */
+/* css for Responsiveness Detailed5  */
+
+@media screen and (min-width:320px) and (max-width:490px) {
+    .detailed {
+        height: fit-content;
+    }
+
+    .detailed-up {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detailed-up-left {
+        width: 100%;
+    }
+
+    .detailed-up-left-down {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detailed-up-left-down-right {
+        height: 300px;
+        width: 100%;
+    }
+
+    .detailed-up-left-down-left {
+        height: 300px;
+        width: 100%;
+
+    }
+
+    .detailed-up-right {
+        width: 100%;
+        height: 500px;
+    }
+
+    .detailed a {
+        align-self: center;
+        border-color: black;
+        transition: 0.5s ease-in-out;
+    }
+
+    .detailed a:hover {
+        background-color: black;
+        color: white;
+    }
+}

@@ -1,0 +1,113 @@
+.active {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+nav img {
+    height: 30px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    z-index: 111;
+    align-items: center;
+    padding: 0rem 2rem;
+    justify-content: space-between;
+    background-color: #F5F8FD;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    filter: grayscale(1);
+}
+
+.navbar-ul {
+    display: flex;
+    border-bottom: 2px solid #DBE0E8;
+    padding: 2rem 1rem;
+    align-items: center;
+}
+
+.navbar-ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar-ul li:not(:last-child) {
+    margin-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid #DBE0E8;
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* css for Responsiveness Navbar  */
+/* css for Responsiveness Navbar  */
+/* css for Responsiveness Navbar  */
+
+@media screen and (min-width:320px) and (max-width:720px) {
+    nav {
+        position: relative;
+        padding: 1.3rem 2rem;
+    }
+
+    .navbar-ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 100%;
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        right: 0%;
+        gap: 4rem;
+        border-radius: 6px;
+        z-index: 100;
+        opacity: 0%;
+        display: none;
+        background: linear-gradient(to top, #FFFFFF, #F5F8FD);
+    }
+
+    .new {
+        opacity: 100%;
+        display: flex;
+    }
+
+    .navbar-ul li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .navbar-ul li:not(:last-child) {
+        margin-right: 0rem;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: black;
+        border: 2px solid #DBE0E8;
+        border-radius: 6px;
+        padding: 0.6rem 1rem;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}

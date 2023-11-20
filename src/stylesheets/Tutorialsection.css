@@ -1,0 +1,47 @@
+/* TutorialSection.css */
+.tutorial-section {
+    padding: 2rem;
+    background-color: #F5F8FD;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorial-section h2 {
+    font-size: 4vmax;
+    text-align: center;
+}
+
+.tutorial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tutorial-card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: black;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial-card:hover {
+    transform: scale(1.05);
+}
+
+.tutorial-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tutorial-card p {
+    font-size: 1em;
+    color: #ecf0f1;
+}

@@ -1,0 +1,56 @@
+.idea7::before {
+    content: "";
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.15);
+    z-index: 6;
+}
+
+.idea7 {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    padding: 2rem;
+    height: 100vh;
+    background: url(../assetes/Idea7-bg.jpg) center;
+    background-size: cover;
+    display: flex;
+    filter: grayscale(0.4);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-attachment: fixed;
+}
+
+.idea7 h1 {
+    font-size: 4vmax;
+    width: 800px;
+    text-shadow: 4px 4px 4px black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.idea7 a {
+    background-color: white;
+    font-weight: 600;
+}
+
+
+/* css for Responsiveness Idea7  */
+/* css for Responsiveness Idea7  */
+/* css for Responsiveness Idea7  */
+
+@media screen and (min-width:320px) and (max-width:720px) {
+
+
+    .idea7 h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+
+}
